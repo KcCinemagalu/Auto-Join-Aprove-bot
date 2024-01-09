@@ -49,8 +49,7 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/PS_OTT"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/PS_BOTz")
+                        InlineKeyboardButton("🗯 Update Channel ", url="https://t.me/Kc_Films_2024"),
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="http://t.me/Auto_psbot?startgroup")
                     ]
@@ -91,8 +90,7 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/PS_OTT"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/PS_BOTz")
+                        InlineKeyboardButton("🗯 Update Channel", url="https://t.me/Kc_Films_2024"),
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="http://t.me/Auto_psbot?startgroup")
                     ]
