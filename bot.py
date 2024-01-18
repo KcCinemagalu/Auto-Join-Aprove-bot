@@ -18,7 +18,7 @@ app = Client(
 )
 
 gif = [
-    'https://telegra.ph/file/2d326373f7aedada55fcc.mp4'
+    ''
 ]
 
 
@@ -32,7 +32,7 @@ async def approve(_, m : Message):
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
-        await app.send_video(kk.id,img, "**Kc Hello {}! Welcome To {} /start Me To Get Movies\n__UPDETAS : @Kc_Films_2024 __**".format(m.from_user.mention, m.chat.title))
+        await app.send_video(kk.id,img, "**Hello {}! Welcome To Kc {}\n/start Me To Get Movies\n\n__UPDETAS : @Kc_Films_2024 __**".format(m.from_user.mention, m.chat.title))
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
